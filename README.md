@@ -1,4 +1,4 @@
-# Nvidia-NIM
+# Nvidia-NIM_Model (Launched on Aug-27-2024)
 This project demonstrates a powerful, real-time Q&A system using Nvidia's NIM model and LangChain for Retrieval-Augmented Generation (RAG) within a Streamlit application. This setup allows users to ask questions about documents, leveraging Nvidia's NIM language model and LangChain to retrieve relevant answers from a knowledge base effectively.
 
 The workflow involves:
