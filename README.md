@@ -8,4 +8,5 @@ Data Ingestion: Upload documents for processing and indexing.
 RAG Architecture: Combine retrieval and generation, where relevant document passages are fetched, and responses are dynamically generated.
 
 Interactive Q&A Interface: Built with Streamlit to provide a user-friendly experience, making document querying intuitive and responsive.
+
 This deployment offers an efficient way to implement document-based Q&A in any domain, suitable for applications in customer support, educational platforms, and enterprise knowledge management.
