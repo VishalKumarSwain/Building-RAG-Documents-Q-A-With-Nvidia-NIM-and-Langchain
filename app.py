@@ -1,8 +1,13 @@
 from openai import OpenAI
+from dotenv import load_dotenv
+load_dotenv()
+
+## load the Groq API key
+api=os.getenv("NVIDIA_API_KEY")
 
 client = OpenAI(
   base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = "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"
+  api_key = api
 )
 
 completion = client.chat.completions.create(
